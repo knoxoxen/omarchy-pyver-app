@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512">
+  <title>pyver</title>
+  <desc>A rounded square in the accent color holding a small terminal prompt, the mark of switching Python versions.</desc>
+  <rect width="512" height="512" rx="96" fill="#FFD60A"/>
+  <g transform="translate(176 176) scale(0.75)">
+    <rect x="0" y="28" width="320" height="216" rx="24" fill="#0e0e10"/>
+    <rect x="0" y="28" width="320" height="52" rx="24" fill="#1a1a1d"/>
+    <rect x="0" y="68" width="320" height="12" fill="#1a1a1d"/>
+    <circle cx="44" cy="54" r="12" fill="#e01b24"/>
+    <circle cx="76" cy="54" r="12" fill="#d9b44a"/>
+    <circle cx="108" cy="54" r="12" fill="#7da082"/>
+    <rect x="24" y="108" width="272" height="14" rx="7" fill="#6e645a"/>
+    <rect x="24" y="138" width="200" height="14" rx="7" fill="#6e645a"/>
+    <rect x="24" y="166" width="240" height="14" rx="7" fill="#6e645a"/>
+  </g>
+</svg>

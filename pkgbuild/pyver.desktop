@@ -1,0 +1,9 @@
+[Desktop Entry]
+Type=Application
+Name=pyver
+Comment=Switch the default Python version
+Exec=pyver open %f
+Icon=pyver
+Terminal=false
+Categories=Development;
+StartupWMClass=pyver

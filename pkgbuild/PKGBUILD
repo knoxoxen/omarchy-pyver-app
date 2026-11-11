@@ -1,0 +1,23 @@
+pkgname=pyver
+pkgver=0.1.0
+pkgrel=1
+pkgdesc='Switch the default Python version and refresh installed versions'
+arch=('x86_64' 'aarch64')
+license=('MIT')
+depends=('qt6-base>=6.9' 'qt6-declarative>=6.9' 'qt6-quickcontrols2>=6.9' 'qt6-wayland' 'xdg-desktop-portal')
+makedepends=('gcc' 'make')
+source=()
+sha256sums=()
+
+build() {
+  cd "$startdir/.."
+  ./bin/build
+}
+
+package() {
+  cd "$startdir/.."
+  install -Dm755 build/pyver "$pkgdir/usr/bin/pyver"
+  install -Dm644 pkgbuild/pyver.desktop "$pkgdir/usr/share/applications/pyver.desktop"
+  install -Dm644 pkgbuild/pyver.svg "$pkgdir/usr/share/icons/hicolor/scalable/apps/pyver.svg"
+  install -Dm644 LICENSE "$pkgdir/usr/share/licenses/pyver/LICENSE"
+}

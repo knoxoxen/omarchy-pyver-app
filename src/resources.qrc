@@ -1,0 +1,7 @@
+<RCC>
+    <qresource prefix="/">
+        <file>Main.qml</file>
+        <file>i18n/en.json</file>
+        <file>skill.md</file>
+    </qresource>
+</RCC>
